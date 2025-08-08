@@ -5,7 +5,7 @@ import { ref, get, set, update, onValue } from "firebase/database";
 import { signOut } from "firebase/auth";
 import confetti from "canvas-confetti";
 import "../styles.css";
-import buttonImage from './assets/button2.png';
+import buttonImage from '../assets/button2.png';
 
 
 export default function Counter() {

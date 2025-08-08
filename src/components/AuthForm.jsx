@@ -2,7 +2,7 @@ import { useState } from "react";
 import { auth, db } from "../firebase";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { ref, set } from "firebase/database";
-import buttonImage from './assets/button3.png';
+import buttonImage from '../assets/button3.png';
 
 export default function AuthForm() {
   const [isLogin, setIsLogin] = useState(true);
