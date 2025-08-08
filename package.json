@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mnazfs.github.io/The-Infinity-Button"",
+  "homepage": "https://mnazfs.github.io/The-Infinity-Button",
 
   "scripts": {
     "dev": "vite",
