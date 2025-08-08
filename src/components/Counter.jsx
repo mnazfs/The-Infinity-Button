@@ -5,6 +5,7 @@ import { ref, get, set, update, onValue } from "firebase/database";
 import { signOut } from "firebase/auth";
 import confetti from "canvas-confetti";
 import "../styles.css";
+import buttonImage from './assets/button2.png';
 
 
 export default function Counter() {
@@ -152,7 +153,7 @@ export default function Counter() {
 
         <div className="button-container">
           <img
-            src="./assests/button2.png"
+            src={buttonImage}
             alt="Infinity Button"
             className={`infinity-button ${clicked ? "clicked" : ""}`}
             onClick={handleClick}

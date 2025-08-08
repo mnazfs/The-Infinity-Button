@@ -2,6 +2,7 @@ import { useState } from "react";
 import { auth, db } from "../firebase";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { ref, set } from "firebase/database";
+import buttonImage from './assets/button3.png';
 
 export default function AuthForm() {
   const [isLogin, setIsLogin] = useState(true);
@@ -64,7 +65,7 @@ export default function AuthForm() {
       </div>
       <div class = "logoblock">
         <img 
-          src="./assets/button3.png" 
+          src={buttonImage}
           alt="Infinity Button Logo" 
           style={{ maxWidth: 320, width: '80%', height: 'auto', borderRadius: 24, boxShadow: '0 4px 24px 0 rgba(80,120,180,0.10)' }}
         />
