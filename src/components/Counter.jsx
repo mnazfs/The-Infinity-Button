@@ -152,7 +152,7 @@ export default function Counter() {
 
         <div className="button-container">
           <img
-            src="/button2.png"
+            src="./assests/button2.png"
             alt="Infinity Button"
             className={`infinity-button ${clicked ? "clicked" : ""}`}
             onClick={handleClick}
