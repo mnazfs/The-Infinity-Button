@@ -1,5 +1,12 @@
+@import "tailwindcss";
+
 :root {
-  font-family: 'Courier New', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Courier New', Avenir, Helvetica, Arial, sans-serif, system-ui;
+  background-color: #0192fa;
+}
+
+/* :root {
+  font-family: 'Courier New', Avenir, Helvetica, Arial, sans-serif, system-ui;
   line-height: 1.5;
   font-weight: 400;
 
@@ -56,8 +63,8 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #0192fa;
   }
   a:hover {
     color: #747bff;
@@ -65,4 +72,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
